@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mako Detailing - детейлинг в Балашихе</title>
+    <meta
+      name="description"
+      content="Mako Detailing в Балашихе: детейлинг, автохимчистка, оклейка машин, полировка и защитные покрытия. Опыт более 6 лет, гарантия на услуги."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mako Detailing">
+        <img src="assets/images/logo.jpg" alt="Mako Detailing" />
+      </a>
+      <nav id="primary-nav" class="top-nav" aria-label="Основная навигация">
+        <a href="#about">О нас</a>
+        <a href="#promo">Акции</a>
+        <a href="#services">Каталог</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-phone" href="tel:+79854161510">+7 (985) 416-15-10</a>
+      <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span>Меню</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div id="about" class="hero-content">
+          <p class="eyebrow">Балашиха · Советская улица, 54</p>
+          <h1>Детейлинг, химчистка и оклейка авто с гарантией на работу</h1>
+          <p class="lead">
+            Mako Detailing приводит автомобиль в порядок перед сезоном, продажей или просто для
+            комфортной ежедневной езды. Работаем более 6 лет: детейлинг, автохимчистка,
+            антигравийная пленка, полировка и защитные покрытия.
+          </p>
+
+          <div class="hero-actions" aria-label="Связаться с Mako Detailing">
+            <a class="button button-primary" href="#lead-form">Оставить заявку</a>
+            <a class="button button-secondary" href="https://t.me/makodetail" target="_blank" rel="noreferrer">
+              Записаться в Telegram
+            </a>
+          </div>
+
+          <div class="trust-row" aria-label="Преимущества">
+            <div>
+              <strong>5.0</strong>
+              <span>рейтинг на Яндекс Картах</span>
+            </div>
+            <div>
+              <strong>162</strong>
+              <span>отзыва клиентов</span>
+            </div>
+            <div>
+              <strong>6+ лет</strong>
+              <span>опыта в детейлинге</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Форма заявки">
+          <div class="photo-card">
+            <img src="assets/images/hero.jpg" alt="Автомобиль в студии Mako Detailing" />
+            <div class="photo-badge">Открыто · запись онлайн</div>
+          </div>
+
+          <form id="lead-form" class="lead-form" novalidate>
+            <h2>Получить консультацию</h2>
+            <p>Оставьте контакты, и менеджер подскажет услугу под задачу и бюджет.</p>
+
+            <label>
+              Имя
+              <input name="name" type="text" placeholder="Например, Алексей" autocomplete="name" />
+            </label>
+
+            <label>
+              Телефон
+              <input name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" />
+            </label>
+
+            <label>
+              Интересующая услуга
+              <select name="service">
+                <option value="">Выберите услугу</option>
+                <option>Оклейка и антигравийная пленка</option>
+                <option>Химчистка салона</option>
+                <option>Полировка и керамика</option>
+                <option>Комплексный детейлинг</option>
+              </select>
+            </label>
+
+            <button class="button button-primary form-button" type="submit">Оставить заявку</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </aside>
+      </section>
+
+      <section id="services" class="services">
+        <div class="section-heading">
+          <p class="eyebrow">Что сделаем с вашим авто</p>
+          <h2>Подберем уход без лишних услуг и объясним, что даст результат</h2>
+        </div>
+
+        <div class="services-layout">
+          <div class="service-grid">
+            <article class="service-card">
+              <span>01</span>
+              <h3>Антигравийная пленка и оклейка</h3>
+              <p>Защита зон риска, оклейка кузова, антихром и аккуратная работа с деталями.</p>
+            </article>
+            <article class="service-card">
+              <span>02</span>
+              <h3>Химчистка салона</h3>
+              <p>Глубокая чистка сидений, пола, пластика и трудных мест без резкого запаха.</p>
+            </article>
+            <article class="service-card">
+              <span>03</span>
+              <h3>Полировка и керамика</h3>
+              <p>Возвращаем блеск кузову, убираем мелкие дефекты и добавляем защитное покрытие.</p>
+            </article>
+            <article class="service-card">
+              <span>04</span>
+              <h3>Комплексный детейлинг</h3>
+              <p>Мойка, салон, кузов, диски и защитные составы в одном понятном пакете работ.</p>
+            </article>
+          </div>
+
+          <aside id="promo" class="promo-card">
+            <img src="assets/images/promo.jpg" alt="Акция Mako Detailing антидождь в подарок" />
+            <div>
+              <p class="promo-label">Акция до 18.06.2026</p>
+              <h3>Антидождь в подарок</h3>
+              <p>При комплексе от 10 000 ₽ нанесем антидождь на стекла без доплаты.</p>
+              <a href="#lead-form">Забронировать акцию</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <span id="reviews" class="anchor-target"></span>
+      <span id="contacts" class="anchor-target"></span>
+    </main>
+
+    <script>
+      const form = document.querySelector('#lead-form');
+      const status = form.querySelector('.form-status');
+      const fields = [...form.querySelectorAll('input, select')];
+      const header = document.querySelector('.site-header');
+      const menuButton = document.querySelector('.mobile-menu-button');
+
+      menuButton.addEventListener('click', () => {
+        const isOpen = header.classList.toggle('is-menu-open');
+        menuButton.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const invalid = fields.filter((field) => !field.value.trim());
+        fields.forEach((field) => field.classList.toggle('is-invalid', invalid.includes(field)));
+
+        if (invalid.length) {
+          status.textContent = 'Заполните имя, телефон и услугу, чтобы оставить заявку.';
+          status.className = 'form-status is-error';
+          invalid[0].focus();
+          return;
+        }
+
+        status.textContent = 'Заявка принята. В тестовой версии данные не отправляются.';
+        status.className = 'form-status is-success';
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
