@@ -1,5 +1,5 @@
-# Mako Detailing test landing
+# ПолирОН Детейл landing
 
-Static two-section landing page for GitHub Pages.
+Static landing page based on the `mako-detailing-test` layout.
 
-Open `index.html` locally or deploy the repository with GitHub Pages from the `main` branch root.
+Open `index.html` locally or deploy the repository with GitHub Pages from the project root.
